@@ -1,0 +1,33 @@
+{
+  "name": "node-express-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/node-express-template.git"
+  },
+  "keywords": [
+    "node.js",
+    "express"
+  ],
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/node-express-template/issues"
+  },
+  "homepage": "https://github.com/Sogrey/node-express-template#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1",
+    "cookie-parser": "~1.4.5",
+    "debug": "~4.3.2",
+    "http-errors": "~1.8.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.10.0"
+  }
+}
